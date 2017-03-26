@@ -1,0 +1,199 @@
+/* Box-Stroids */
+* {
+	padding:0;
+	margin:0;
+	-webkit-user-select:none; /* Chrome/Safari */        
+	-moz-user-select:none; /* Firefox */
+	-ms-user-select:none; /* IE10+ */
+}
+a {
+	cursor:pointer;
+	color:#FFF;
+}
+html, body {
+	height:100%;
+}
+body {
+	background:url('./bg.jpg') no-repeat 50% 50% #555;
+	background-size:cover;
+	cursor:url('./cursor.png'),auto;
+}
+#welcome, #version, #buttons, #errorbox, #controls {font-family:'borda','roboto',arial,calibri,tahoma;} /* Font type */
+#menu-wrap {
+	position:absolute;
+	right:35%;
+	bottom:0;
+	left:35%;
+	top:0;
+}
+#debug {
+	background:rgba(0,0,0,.6);
+	border-radius:10px;
+	position:fixed;
+	padding:10px;
+	height:150px;
+	width:100px;
+	left:20px;
+	top:20px;
+}
+#logo {
+	background:url('./title.png') no-repeat 50% 50%;
+	background-size:contain;
+	position:absolute;
+	bottom:75%;
+	right:0;
+	left:0;
+	top:5%;
+}
+#welcome {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	text-align:center;
+	font-size:300%;
+	color:#FFF;
+	bottom:60%;
+	right:0;
+	left:0;
+	top:30%;
+}
+#buttons {
+	background:transparent;/*#313944*/
+	text-shadow:0 0 5px #FFF;
+	position:absolute;
+	font-weight:700;
+	color:#FFF;
+	bottom:10%;
+	right:0;
+	left:0;
+	top:40%;
+}
+#buttons ul {
+	list-style:none;
+}
+#buttons ul li {
+	text-align:center;
+	margin-bottom:5px;
+	padding:10px 0;
+	font-size:150%;
+}
+#buttons ul li:hover {
+	text-shadow:0 0 5px #f0793f;
+	/*background:#f0793f;*/
+	color:#f0793f;
+}
+#version {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	margin-top:-25px;
+	text-indent:10px;
+	padding-top:3px;
+	color:#FFF;
+	bottom:10%;
+	right:0;
+	left:0;
+	top:90%;
+}
+#errorbox-bg {
+	position:absolute;
+	background:rgba(0,0,0,.8);
+	bottom:0;
+	right:0;
+	left:0;
+	top:0;
+}
+#errorbox {
+	position:absolute;
+	color:#FFF;
+	bottom:35%;
+	right:30%;
+	left:30%;
+	top:25%;
+}
+#errorbox-title {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	font-size:200%;
+	padding:10px;
+	bottom:80%;
+	right:0;
+	left:0;
+	top:0;
+}
+#errorbox-description {
+	background:transparent;/*#313944*/
+	position:absolute;
+	padding:10px;
+	bottom:20%;
+	right:0;
+	left:0;
+	top:20%;
+}
+#errorbox-buttons {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	top:80%;
+}
+#controls-bg {
+	position:absolute;
+	background:rgba(0,0,0,.8);
+	bottom:0;
+	right:0;
+	left:0;
+	top:0;
+}
+#controls {
+	position:absolute;
+	color:#FFF;
+	bottom:35%;
+	right:30%;
+	left:30%;
+	top:25%;
+}
+#controls-title {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	font-size:200%;
+	padding:10px;
+	bottom:80%;
+	right:0;
+	left:0;
+	top:0;
+}
+#controls-description {
+	background:transparent;/*#313944*/
+	position:absolute;
+	padding:10px;
+	bottom:20%;
+	right:0;
+	left:0;
+	top:20%;
+}
+#controls-buttons {
+	background:transparent;/*#464d57*/
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	top:80%;
+}
+.button {
+	border:1px solid #FFF;
+	border-radius:5px;
+	position:relative;
+	margin-left:-50px;
+	text-align:center;
+	margin-top:-21px;
+	width:100px;
+	height:40px;
+	left:50%;
+	top:50%;
+}
+.button:hover {
+	border-color:#f0793f;
+	background:#f0793f;
+}
+
+

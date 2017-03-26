@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css"/>
+	<link rel="icon" type="image/png" href="./css/favicon.png"/>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/scripts.js"></script>
+	<iframe width="300" height="300" hidden="true"
+		src="https://www.youtube-nocookie.com/embed/IitCQCaKi3E?autoplay=0">
+    </iframe>
+</head>
+<body>
+<div id="menu-wrap">
+	<div id="logo"></div>
+	<!--<div class="segment" id="welcome">Welcome to Box-Stroid!</div>-->
+	<div id="buttons">
+		<ul>
+			<li>Play game</li>
+			<li onclick="toggleControls();">Controls</li>
+			<li>Leaderboards</li>
+			<li>Exit game</li>
+		</ul>
+	</div>
+	<div id="version"><span style="color:rgb(100,250,100);margin-right:50px;">Game is up to date!</span>Current version: 4.2.0</div>
+</div>
+<div id="debug">
+	<center style="color:#FFF;">Debug Menu</center><br>
+	<a href="#" onclick="toggleError();">show error</a>
+</div>
+<div id="errorbox-bg" style="display:none;">
+	<div id="errorbox">
+		<div class="segment" id="errorbox-title">Error!</div>
+		<div id="errorbox-description">There was an error, oh noes!</div>
+		<div id="errorbox-buttons">
+			<div class="button segment" onclick="toggleError();">OK</div>
+		</div>
+	</div>
+</div>
+<div id="controls-bg" style="display:none;">
+	<div id="controls">
+		<div class="segment" id="controls-title">Controls:</div>
+		<div id="controls-description">WAD - Fly spaceship<br>SPACE - Fire laser<br>Q - Current score<br>L - Leaderboards</div>
+		<div id="controls-buttons">
+			<div class="button segment" onclick="toggleControls();">OK</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
