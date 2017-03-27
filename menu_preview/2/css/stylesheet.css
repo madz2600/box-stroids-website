@@ -53,18 +53,24 @@ body {
 	margin-left:10px;
 	margin-top:10px;
 	font-size:200%;
+	transition:.2s;
 }
 #menu ul li:hover {
 	background:#f0793f;
-	margin-right:-40px;
-	text-indent:-40px;
+	font-size:225%;
 }
+#menu ul li:nth-child(1):hover {margin-right:-200px;text-indent:-200px;}
+#menu ul li:nth-child(2):hover {margin-right:-180px;text-indent:-180px;}
+#menu ul li:nth-child(3):hover {margin-right:-160px;text-indent:-160px;}
+#menu ul li:nth-child(4):hover {margin-right:-140px;text-indent:-140px;}
+#menu ul li:nth-child(5):hover {margin-right:-120px;text-indent:-120px;}
+#menu ul li:nth-child(6):hover {margin-right:-100px;text-indent:-100px;}
 #accent, #accent-color {
+	transform:rotate(12deg);
+	margin-top:-1000px;
 	position:absolute;
 	height:2000px;
 	width:400px;
-	transform:rotate(20deg);
-	margin-top:-1000px;
 	left:30%;
 	top:50%;
 }
@@ -79,7 +85,7 @@ body {
 	bottom:5%;
 	right:5%;
 	left:70%;
-	top:80%;
+	top:75%;
 }
 #news #game-version {
 	background:#464d57;
