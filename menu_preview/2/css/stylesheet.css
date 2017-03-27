@@ -1,1 +1,29 @@
 /* BOX-stroids website styles */
+* {
+	padding:0;
+	margin:0;
+}
+#gameplay-bg {
+	position:absolute;
+	background:#333;
+	bottom:0;
+	right:0;
+	left:0;
+	top:0;
+}
+#menu {
+	position:absolute;
+	background:red;
+	bottom:0;
+	right:0;
+	left:50%;
+	top:0;
+}
+#news {
+	position:absolute;
+	background:#888;
+	bottom:5%;
+	right:5%;
+	left:70%;
+	top:80%;
+}
