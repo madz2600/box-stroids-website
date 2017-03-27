@@ -16,19 +16,12 @@ body {
 }
 #menu {
 	position:absolute;
-	background:#333;
+	background:#313944; /* Same as accent */
+	color:#FFF;
 	bottom:0;
 	right:70%;
 	left:0;
 	top:0;
-}
-#news {
-	position:absolute;
-	background:#333;
-	bottom:5%;
-	right:5%;
-	left:70%;
-	top:80%;
 }
 #accent, #accent-color {
 	position:absolute;
@@ -39,5 +32,26 @@ body {
 	left:30%;
 	top:50%;
 }
-#accent {background:#333;margin-left:-200px;}
-#accent-color {background:red;margin-left:-170px;}
+#accent {background:#313944;/* Same as menu bg */margin-left:-200px;}
+#accent-color {background:#f0793f;margin-left:-190px;}
+#news {
+	border-left:5px solid #f0793f;
+	background:#313944;
+	position:absolute;
+	padding:5px;
+	color:#FFF;
+	bottom:5%;
+	right:5%;
+	left:70%;
+	top:80%;
+}
+#news #game-version {
+	background:#464d57;
+	position:absolute;
+	line-height:20px;
+	height:20px;
+	padding:5px;
+	bottom:0;
+	right:0;
+	left:0;
+}
