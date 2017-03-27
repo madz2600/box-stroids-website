@@ -4,15 +4,21 @@
 	margin:0;
 }
 body {
+	cursor:url('./cursor.png'),auto;
 	overflow:hidden;
 }
-#gameplay-bg {
+/* Font 1 */
+#menu, #news {font-family:'borda',calibri,arial,tahoma;}
+#gameplay-bg, #gameplay-bg-cover {
 	position:absolute;
 	background:#555;
 	bottom:0;
 	right:0;
 	left:0;
 	top:0;
+}
+#gameplay-bg-cover {
+	opacity:.01;
 }
 #menu {
 	position:absolute;
@@ -22,6 +28,36 @@ body {
 	right:70%;
 	left:0;
 	top:0;
+}
+#menu #logo {
+	position:absolute;
+	background:url('./title.png') no-repeat 50% 50%;
+	background-size:contain;
+	bottom:80%;
+	right:0;
+	left:0;
+	top:5%;
+}
+#menu ul {
+	position:absolute;
+	list-style:none;
+	display:block;
+	bottom:5%;
+	right:0;
+	left:0;
+	top:25%;
+}
+#menu ul li {
+	background:#464d57;
+	text-align:center;
+	margin-left:10px;
+	margin-top:10px;
+	font-size:200%;
+}
+#menu ul li:hover {
+	background:#f0793f;
+	margin-right:-40px;
+	text-indent:-40px;
 }
 #accent, #accent-color {
 	position:absolute;
